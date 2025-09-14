@@ -6,7 +6,7 @@ Una semplice applicazione **Streamlit + SQLite** per gestire le proprie **entrat
 - Filtrare per mese e anno
 - Visualizzare entrate, uscite e saldo
 - Resettare il database con un click
-- Chiedere consigli ad un piccolo **LLM integrato** (configurabile)
+- Chiedere consigli a Phil attraverso le api di Gemini
 
 ---
 
