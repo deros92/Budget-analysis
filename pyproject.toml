@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "spese_app"
+version = "0.2.0"
+description = "Gestione personale di entrate e uscite con Streamlit, SQLite e AI locale"
+authors = [
+  { name="Yuri De Rosa", email="yuriderosa92@gmail.com" }
+]
+dependencies = [
+  "streamlit",
+  "pandas",
+  "altair==4.0",
+  "huggingface_hub",
+  "transformers",
+  "pytorch"
+]
+
+[project.scripts]
+spese-app = "spese_app.app:main"

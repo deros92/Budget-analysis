@@ -1,0 +1,33 @@
+# Ambiente virtuale
+.venv/
+venv/
+
+# File sensibili / chiavi API
+.env
+*.env
+
+# Script sperimentali
+spese_app/ml.py
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# File temporanei
+*.log
+*.db-journal
+*.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/
+
+# Cartelle cache varie
+__pycache__/
+.cache/

@@ -1,0 +1,6 @@
+streamlit
+pandas
+altair==4.0
+huggingface_hub
+transformers
+pytorch
